@@ -6,7 +6,7 @@ function verifyDate(req, res, next){
         next()
     }
     else{
-        alert("This web application is only available during working hours (Monday to Friday,  from 9 to 17)")
+        console.log("This web application is only available during working hours (Monday to Friday,  from 9 to 17)")
     }
 }
 module.exports = verifyDate
